@@ -36,8 +36,8 @@ class _OnboardingState extends State<Onboarding> {
               children: [
                 Container(
                   margin: EdgeInsets.only(right: 20.0),
-                  padding: EdgeInsets.all(20), //contenedor que rodea el texto "NEXT"
-                  decoration: BoxDecoration(color: Colors.black, borderRadius: BorderRadius.circular(120)), //poner el boton redondo
+                  padding: EdgeInsets.all(30), //contenedor que rodea el texto "NEXT"
+                  decoration: BoxDecoration(color: Colors.black, shape: BoxShape.circle), //poner el boton redondo //BoxShape lo hace un círculo
                   child: Text( //texto del producto y su tamaño y estilo
                     "Next", //el "\n hace la funcion de dar un enter al texto"  
                     style: TextStyle(
